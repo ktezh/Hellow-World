@@ -1,4 +1,4 @@
 // button function
 function buttonControl(){
-    alert("Ha pulsado el boton");
+    alert("Este boton e un crack");
 }
