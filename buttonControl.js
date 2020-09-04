@@ -1,4 +1,6 @@
 // button function
 function buttonControl(){
-    alert('Boton precionnado!!')
+
+    alert("Ha pulsado el boton");
+
 }
