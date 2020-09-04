@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: orange;
+            display: inline-block;
+        }
+        
+        div.root {
+            border-radius: 6px;
+            border: solid 2px rgb(204, 177, 57);
+            padding-left: 20px;
+            margin: 20px 20% 0px 20%;
+            max-width: 60%;
+        }
+        
+        button {
+            border: solid 1px;
+            border-radius: 4px;
+            color: rgb(253, 214, 106);
+            background: rgb(54, 109, 54);
+            font-size: 20px;
+            margin-left: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="root" class="root">
+        <h1 color='orange' onclick=test(2,7) id="got">Hello</h1>
+        <button id='clk' onclick=buttonControl()>Click!!</button>
+    </div>
+
+    <script src="test.js"></script>
+    <script src="buttonControl.js"></script>
+
+</body>
+
+</html>
